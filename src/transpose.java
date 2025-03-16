@@ -15,13 +15,14 @@ public class transpose {
         System.out.println();
 
             for ( int i=0 ; i< arr.length ; i++){
-                for ( int j=0 ; j<arr[0].length; j++){
-                    if ( i != j ){
+                for ( int j=i+1 ; j<arr[0].length; j++){
+
                         temp =arr[i][j];
                         arr[i][j]=arr[j][i];
                         arr[j][i]=temp;
 
-                    }
+
+
                 }
 
             }
