@@ -33,10 +33,6 @@ public class transpose {
 
                 }
             }
-
-
-
-
-
+        System.out.println();
     }
 }
