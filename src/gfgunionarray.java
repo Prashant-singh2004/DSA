@@ -7,7 +7,7 @@ public class gfgunionarray {
 
         System.out.println(findUnion(a,b));
     }
-    public static String findUnion(int[] a, int[] b){
+    public static ArrayList<Integer> findUnion(int[] a, int[] b){
 
 //        ArrayList<Integer> union = new ArrayList<>();
         Set<Integer> set = new TreeSet<>();
@@ -18,7 +18,7 @@ public class gfgunionarray {
             set.add(nums);
         }
 
-            return (Arrays.toString(set.toArray()));
+        return new ArrayList<>(set);
 
     }
 }
