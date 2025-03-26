@@ -25,7 +25,6 @@ public class leetcode702binarysearch {
                 tail = mid;
             }
 
-
         }
 
 
